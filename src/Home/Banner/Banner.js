@@ -15,7 +15,7 @@ const Banner = () => {
                             <PhotoProvider>
                                 <PhotoView src={img2}>
                                 <figure>
-                                    <img src={img2} style={{ objectFit: "cover", marginTop:"25px" }} alt="" />{" "}
+                                    <img src={img2} style={{ objectFit: "cover", marginTop:"25px", cursor:"pointer" }} alt="" />{" "}
                                 </figure>
                                 </PhotoView>
                             </PhotoProvider>

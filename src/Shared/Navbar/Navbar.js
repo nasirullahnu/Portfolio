@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowDownIcon, AtSymbolIcon } from '@heroicons/react/24/solid'
+import { ArrowDownIcon, AtSymbolIcon, LinkIcon } from '@heroicons/react/24/solid'
 
 const Navbar = () => {
   const navButtons = (
@@ -11,10 +11,14 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-      <a href="Nasir Ullah - Cover Letter.pdf" download="Nasir Ullah - Cover Letter.pdf">
-                        Resume <ArrowDownIcon className="h-6 w-6 text-white"/>
-                        
-                    </a>
+        <a href="https://www.linkedin.com/in/nasir-u-5399221b0/">
+          Linked In <LinkIcon className="h-6 w-6 text-white"></LinkIcon>
+         </a>
+      </li>
+      <li>
+      <a href="Nasir Ullah (1).pdf" download="Nasir Ullah (1).pdf">
+        Resume <ArrowDownIcon className="h-6 w-6 text-white"/>
+      </a>
       </li>
       <li>
          <a href="mailto:nasirullah878@gmail.com">
