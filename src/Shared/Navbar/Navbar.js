@@ -11,14 +11,15 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
         <a href="https://www.linkedin.com/in/nasir-u-5399221b0/">
           Linked In <LinkIcon className="h-6 w-6 text-white"></LinkIcon>
          </a>
-      </li>
-      <li>
-      <a href="Nasir Ullah (1).pdf" download="Nasir Ullah (1).pdf">
-        Resume <ArrowDownIcon className="h-6 w-6 text-white"/>
-      </a>
       </li>
       <li>
          <a href="mailto:nasirullah878@gmail.com">
@@ -29,7 +30,7 @@ const Navbar = () => {
   );
 
   return (
-    <div>
+    <div className="top-fixed">
       <div className="navbar h-10">
         <div className="navbar-start">
           <div className="dropdown">
@@ -57,7 +58,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link href="/" className="btn btn-ghost normal-case text-xl">
-            <p>Md. Nasir Ullah</p>
+            <p>Junior Web Developer</p>
           </Link>
         </div>
         <div className="navbar-end hidden lg:flex">

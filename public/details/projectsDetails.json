@@ -1,0 +1,77 @@
+[
+    {
+           "projectTitle": "Phone Bazar",
+           "description": "On this site user can book photographer, give review to service, and add products",
+           "demo":"photography.png",
+           "img1":"servicecards.png",
+           "img2":"serviceDetails.png",
+           "img3":"serviceadd.png",
+           "title1":"Service Cards",
+           "title2":"Service details and review section",
+           "title3":"Service add form",
+           "backend":"Node.js, MongoDB, Firebase, ExpressJS",
+           "frontend":"React.js, React Router, ES6, TailwindCSS, DaisyUI",
+           "tools": "vs code, Vercel, Chrome DevTool, Hero Icon, NPM, React photo view",
+           "features": {
+                  "a" : "User can give feedback every services",
+                  "b" : "Feedbacks are dynamic service based",
+                  "c" : "Anyone can add services",
+                  "d" : "User can book photographer shift ",
+                  "e" : "On my review route users can see their all reviews & do interaction"
+           } ,
+           "client": "https://github.com/Porgramming-Hero-web-course/b6a11-service-review-client-side-nasirullahnu",
+           "server": "https://github.com/Porgramming-Hero-web-course/b6a11-service-review-server-side-nasirullahnu",
+           "live": "https://ph-photography.web.app/",
+           "category_id": "01"
+    },
+    {
+           "projectTitle": "",
+           "description": "Used for resale used phone. Have JWT Security. User Based Dashboard like Admin, Seller & Buyer",
+           "demo":"phoneBazar.png",
+           "img1":"phoneProducts.png",
+           "img2":"phoneAdminDashbord.png",
+           "img3":"phoneSellerDashbord.png",
+           "title1":"Dynamic Products Section",
+           "title2":"Admin Dashboard",
+           "title3":"Seller dashbord with product add form",
+           "backend":"Node.js, MongoDB, ExpressJS, Firebase, JWT",
+           "frontend":"React.js, React Router, ES6, TailwindCSS, DaisyUI",
+           "tools": "vs code, Vercel, Chrome DevTool, Hero Icon, NPM, React Hook Form",
+           "features": {
+                  "a" : "This site use Json Web Security (JWT)",
+                  "b" : "User can purchase a product or report any product to admin",
+                  "c" : "The dashboard route changes depending on the user like Admin, Seller, Buyer",
+                  "d" : "Only Admin can verify serller, delete seller or buyer, delete reported products.",
+                  "e" : "Seller can add products very easily by imgbb image hosting by only one click"
+           } ,
+           "client": "https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-nasirullahnu",
+           "server": "https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-nasirullahnu",
+           "live": "https://phone-client-1036f.web.app/",
+           "category_id": "02"
+    },
+    {
+           "projectTitle": "English Today",
+           "description": "For purchasing online course. Course Details PDF downloader",
+           "demo":"english-today.png",
+           "img1":"englishCourseDetail.png",
+           "img2":"englishBlogSection.png",
+           "img3":"courseEnrole.png",
+           "title1":"Dynamic course details",
+           "title2":"Blog section for all visitors",
+           "title3":"Course purchase page",
+           "backend":"Node.js, MongoDB, ExpressJS",
+           "frontend":"React.js, React Router, ES6, React Bootstrap",
+           "tools": "vs code, Vercel, Chrome DevTool, Hero Icon, NPM, React PDF",
+           "features": {
+                  "a" : "Download course details PDF file",
+                  "b" : "Dark Mode theme",
+                  "c" : "Fast data loading",
+                  "d" : "Private Route for unauthorized access",
+                  "e" : "Blog Section for all visitors"
+           },
+           "client": "https://github.com/programming-hero-web-course1/b610-learning-platform-client-side-nasirullahnu",
+           "server": "https://github.com/programming-hero-web-course1/b610-lerning-platform-server-side-nasirullahnu",
+           "live": "https://english-today-ca845.web.app/",
+           "category_id": "03"
+    }
+]
